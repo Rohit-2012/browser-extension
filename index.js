@@ -34,7 +34,7 @@ tabBtn.addEventListener("click", function () {
 // eventlistener and function to delete the leads from localstorage and myLeads variable and render the empty myLeads array
 deleteBtn.addEventListener("click", function () {
   let deleteConfirmation = confirm(
-    "Do you want to delete all the current leads?"
+    "Do you want to delete all the leads?"
   );
   if (deleteConfirmation) {
     localStorage.clear();
